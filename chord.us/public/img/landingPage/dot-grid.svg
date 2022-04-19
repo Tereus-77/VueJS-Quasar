@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="262px" height="255px" viewBox="0 0 262 255" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>dot-grid</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-dasharray="0,11" stroke-linecap="round" stroke-linejoin="round">
+        <g id="dot-grid" transform="translate(2.000000, 1.000000)" stroke="#EEC69E" stroke-width="4">
+            <line x1="0" y1="1" x2="258" y2="1" id="Line"></line>
+            <line x1="0" y1="16" x2="258" y2="16" id="Line-Copy"></line>
+            <line x1="0" y1="34" x2="258" y2="34" id="Line-Copy-2"></line>
+            <line x1="0" y1="51" x2="258" y2="51" id="Line-Copy-3"></line>
+            <line x1="0" y1="68" x2="258" y2="68" id="Line-Copy-4"></line>
+            <line x1="0" y1="85" x2="258" y2="85" id="Line-Copy-5"></line>
+            <line x1="0" y1="101" x2="258" y2="101" id="Line-Copy-6"></line>
+            <line x1="0" y1="118" x2="258" y2="118" id="Line-Copy-7"></line>
+            <line x1="0" y1="135" x2="258" y2="135" id="Line-Copy-8"></line>
+            <line x1="0" y1="152" x2="258" y2="152" id="Line-Copy-9"></line>
+            <line x1="0" y1="168" x2="258" y2="168" id="Line-Copy-10"></line>
+            <line x1="0" y1="185" x2="258" y2="185" id="Line-Copy-11"></line>
+            <line x1="0" y1="202" x2="258" y2="202" id="Line-Copy-12"></line>
+            <line x1="0" y1="219" x2="258" y2="219" id="Line-Copy-13"></line>
+            <line x1="0" y1="237" x2="258" y2="237" id="Line-Copy-14"></line>
+            <line x1="0" y1="252" x2="258" y2="252" id="Line-Copy-15"></line>
+        </g>
+    </g>
+</svg>

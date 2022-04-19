@@ -1,0 +1,146 @@
+// app global css in Sass form
+body
+  background-color: $main
+  color: $textColor 
+  padding: 0px
+  margin: 0px
+
+.q-header
+  background-color: $main !important
+  color: inherit
+  position: relative
+  .q-layout__shadow:after
+    bottom: 0px
+  .q-bar
+    height: 100px
+    background-color: transparent !important
+    div
+      font-size: 11.5pt !important
+      font-weight: bold
+      white-space: nowrap !important
+    div.new::after
+      content: 'NEW'
+      background-color: #EEC69E
+      font-size: 8pt !important
+      margin: 0px 0px 5px 2px
+      padding: 5px 10px
+      border-radius: 15px
+    img.non-mobile
+      width: 10vw
+    img
+      margin-left: 35px
+
+.arrow
+  width: 0
+  height: 0
+  border-left: 5px solid transparent
+  border-right: 5px solid transparent
+  margin-left: 5px
+  margin-bottom: 2px
+  display: inline-block
+  &-down
+    border-top: 7px solid $textColor
+  &-up
+    border-bottom: 7px solid $textColor
+
+.q-carousel__slide
+  padding: 0px
+  background-color: $main
+  &s-container .scroll
+    overflow: hidden
+
+.carousel-left
+  position: absolute
+  left: 200px
+  top: 8vw
+  width: 650px
+
+.q-carousel__control .q-bar
+  color: $textColor !important
+  background-color: transparent
+  height: 100%
+  padding: 0px
+  div
+    margin: 0px
+  .active
+    background-color: #EEC69E
+    border-radius: 5px
+  .carousel-control
+    padding: 20px
+    font-size: 15pt
+    margin: 10px
+  .carousel-control.active 
+    font-family: CircularStdBold
+  .border-radius-right
+    border-right: 1px solid #D9DCDD
+
+
+.carousel-card-bg
+  position: absolute
+  background-repeat: no-repeat
+  box-shadow: -2px 1px 8px #E0B083
+  border-radius: 10px
+  background-size: cover
+  width: 100px
+  background-image: url('/img/carousel/card.png')
+  height: 92%
+  top: 0px
+  left: 124px
+  width: calc(100% - 235px)
+  box-shadow: -2px 3px 8px #E0B083
+    img
+      position: absolute
+      width: 89vw
+      height: auto
+      right: -39.6vw
+      top: 62px
+  &-2
+    background-image: url('/img/carousel/card-2.svg')
+    height: 82.5%
+    top: 4%
+    left: 99px
+  &-3
+    background-image: url('/img/carousel/card-3.svg')
+    height: 74.5%
+    top: 9%
+    left: 72px
+  &-4
+    background-image: url('/img/carousel/card-4.svg')
+    height: 67.5%
+    top: 12.5%
+    left: 45px
+
+.button
+  padding: 12px 25px
+  border-radius: 30px
+  cursor: pointer
+  font-weight: bold
+  font-size: 12pt
+  img
+    width: 20px !important
+    margin-left: 10px !important
+    position: relative
+    bottom: -4px !important
+  &-outline
+    border: 2px solid #0B84AC
+  &-solid
+    color: #FFFFFF
+    background-color: #0B84AC
+
+.text-align
+  &-center
+    text-align: center
+  &-right
+    text-align: right
+  &-left
+    text-align: left
+
+.fs
+  &-11
+    font-size: 11px
+  &-13
+    font-size: 13px
+  &-28
+    font-size: 28px
+  &-47
+    font-size: 47px

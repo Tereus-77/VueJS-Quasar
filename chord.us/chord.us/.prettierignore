@@ -1,0 +1,4 @@
+# Ignores the following folders
+node_modules
+dist
+backend

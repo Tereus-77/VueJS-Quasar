@@ -1,0 +1,34 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true,
+		"standard.enable": false,
+		"editor.formatOnPaste": true,
+		"editor.formatOnSave": true,
+		"i18n-ally.localesPaths": "src/i18n",
+		"vetur.grammar.customBlocks": {
+			"docs": "md",
+			"i18n": "yaml"
+		},
+		"i18n-ally.sourceLanguage": "yaml",
+		"bump.terminal": true
+	},
+	"i18n-ally.ignoredLocales": [
+		"en"
+	],
+	"i18n-ally.ignoreFiles": [
+		"node_modules",
+		".quasar",
+		"/dist",
+		"*.code-workspace",
+		".vscode",
+		"src/assets",
+		"src/statics",
+		"/public",
+		"/backend"
+	]
+}

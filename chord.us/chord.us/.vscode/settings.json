@@ -1,0 +1,6 @@
+{
+  // disable StandardJS linting and resolve with Prettier
+  "standard.enable": false,
+  "files.insertFinalNewline": true,
+  "files.eol": "\n"
+}

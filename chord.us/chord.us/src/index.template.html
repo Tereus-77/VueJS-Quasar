@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= productName %></title>
+
+    <meta charset="utf-8" />
+    <meta name="description" content="<%= productDescription %>" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta
+      name="viewport"
+      content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width<% if (ctx.mode.cordova || ctx.mode.capacitor) { %>, viewport-fit=cover<% } %>"
+    />
+
+    <!--link rel="icon" type="image/png" sizes="128x128" href="icons/favicon-128x128.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png"-->
+    <link rel="icon" type="image/ico" href="favicon.ico" />
+    <link href="/css/stacking-cards/style.css" rel="stylesheet" />
+    <script src="https://embed.typeform.com/embed.js"></script>
+    <script src="/js/stacking-cards/scripts.js"></script>
+    <script>
+      !(function (c, l, o, u, d) {
+        var e = (c.__ce = c.__ce || {}),
+          t = (u ? u + '.' : '') + 'cloudengage.com',
+          n = ['data', new Date().getTime()].join('_')
+        e[n] = function (n) {
+          ;(e.data = n),
+            e.data.CESID && localStorage.setItem('CESID', e.data.CESID)
+          var r = 'https://platform.' + t + '/widget/script'
+          ;(r += d ? '.js' : '.min.js'),
+            (r += '?v=' + e.data.version.widget),
+            l.write('<script src="' + r + '"><\/script>')
+        }
+        var r = c.location.href,
+          a = 'cloudengage-toolset',
+          i = new RegExp(a + '=([^&#]+)'),
+          s = r.match(i),
+          p =
+            (c.opener && ((s ? s[1] : '') || sessionStorage.getItem(a))) || '',
+          I = localStorage.getItem('CESID') || '',
+          g = 'https://' + o + '.' + t + '/widget/data.json'
+        ;(g += '?callback=' + encodeURIComponent(['__ce', n].join('.'))),
+          (g += '&url=' + encodeURIComponent(r)),
+          (g += '&referrer=' + encodeURIComponent(l.referrer)),
+          (g += p ? '&toolset=' + encodeURIComponent(p) : ''),
+          (g += I ? '&CESID=' + I : ''),
+          l.write('<script src="' + g + '"><\/script>')
+      })(window, document, 'platform')
+    </script>
+    <script type="text/javascript">
+      adroll_adv_id = 'MVEZFZHN5ZG4HHGPI6VCNE'
+      adroll_pix_id = 'NAOFI2X6KRC6ZGD2BFJTZL'
+      adroll_version = '2.0'
+      ;(function (w, d, e, o, a) {
+        w.__adroll_loaded = true
+        w.adroll = w.adroll || []
+        w.adroll.f = ['setProperties', 'identify', 'track']
+        var roundtripUrl =
+          'https://s.adroll.com/j/' + adroll_adv_id + '/roundtrip.js'
+        for (a = 0; a < w.adroll.f.length; a++) {
+          w.adroll[w.adroll.f[a]] =
+            w.adroll[w.adroll.f[a]] ||
+            (function (n) {
+              return function () {
+                w.adroll.push([n, arguments])
+              }
+            })(w.adroll.f[a])
+        }
+        e = d.createElement('script')
+        o = d.getElementsByTagName('script')[0]
+        e.async = 1
+        e.src = roundtripUrl
+        o.parentNode.insertBefore(e, o)
+      })(window, document)
+      adroll.track('pageView')
+    </script>
+  </head>
+
+  <body>
+    <!-- DO NOT touch the following DIV -->
+    <div id="q-app"></div>
+    <!-- Start of AnswerDash script -->
+    <script>
+      var AnswerDash
+      !(function (e, t, n, s, a) {
+        if (!t.getElementById(s)) {
+          var i,
+            r = t.createElement(n),
+            c = t.getElementsByTagName(n)[0]
+          e[a] ||
+            ((i = e[a] = function () {
+              i.__oninit.push(arguments)
+            }),
+            (i.__oninit = [])),
+            (r.type = 'text/javascript'),
+            (r.async = !0),
+            (r.src = 'https://p1.answerdash.com/answerdash.min.js?siteid=1493'),
+            r.setAttribute('id', s),
+            c.parentNode.insertBefore(r, c)
+        }
+      })(window, document, 'script', 'answerdash-script', 'AnswerDash')
+    </script>
+    <!-- End of AnswerDash script -->
+  </body>
+</html>
+
+<style>
+  #site-header {
+    position: fixed;
+    height: 100px;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    transition: all 0.3s ease;
+    box-shadow: 0 1px 25px rgba(0, 0, 0, 0.1);
+  }
+
+  #site-header.hide {
+    top: -101px;
+  }
+</style>
+
+<script>
+  ;(function () {
+    var doc = document.documentElement
+    var w = window
+
+    var prevScroll = w.scrollY || doc.scrollTop
+    var curScroll
+    var direction = 0
+    var prevDirection = 0
+
+    var header = document.getElementById('site-header')
+
+    var getHeader = function () {
+      return document.getElementById('site-header')
+    }
+
+    var addHideClass = function () {
+      header.setAttribute('class', 'hide')
+    }
+
+    var removeHideClass = function () {
+      header.setAttribute('class', '')
+    }
+
+    var checkScroll = function () {
+      /*
+       ** Find the direction of scroll
+       ** 0 - initial, 1 - up, 2 - down
+       */
+
+      curScroll = w.scrollY || doc.scrollTop
+      if (curScroll > prevScroll) {
+        //scrolled up
+        direction = 2
+      } else if (curScroll < prevScroll) {
+        //scrolled down
+        direction = 1
+      }
+
+      if (direction !== prevDirection) {
+        toggleHeader(direction, curScroll)
+      }
+
+      prevScroll = curScroll
+    }
+
+    var toggleHeader = function (direction, curScroll) {
+      if (!header) {
+        header = getHeader()
+      }
+      if (direction === 2 && curScroll > 50) {
+        //replace 52 with the height of your header in px
+
+        addHideClass()
+        prevDirection = direction
+      } else if (direction === 1) {
+        removeHideClass()
+        prevDirection = direction
+      }
+    }
+
+    window.addEventListener('scroll', checkScroll)
+  })()
+</script>

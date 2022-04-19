@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>instagram-icon</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="make-it-yours-red" transform="translate(-747.000000, -611.000000)">
+            <g id="instagram-icon" transform="translate(747.000000, 611.000000)">
+                <rect id="Rectangle-Copy-9" fill="#8B98A9" x="0" y="0" width="40" height="40" rx="20"></rect>
+                <path d="M16,11 C13.239,11 11,13.239 11,16 L11,24 C11,26.761 13.239,29 16,29 L24,29 C26.761,29 29,26.761 29,24 L29,16 C29,13.239 26.761,11 24,11 L16,11 Z M26,13 C26.552,13 27,13.448 27,14 C27,14.552 26.552,15 26,15 C25.448,15 25,14.552 25,14 C25,13.448 25.448,13 26,13 Z M20,15 C22.761,15 25,17.239 25,20 C25,22.761 22.761,25 20,25 C17.239,25 15,22.761 15,20 C15,17.239 17.239,15 20,15 Z M20,17 C18.3431458,17 17,18.3431458 17,20 C17,21.6568542 18.3431458,23 20,23 C21.6568542,23 23,21.6568542 23,20 C23,18.3431458 21.6568542,17 20,17 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>

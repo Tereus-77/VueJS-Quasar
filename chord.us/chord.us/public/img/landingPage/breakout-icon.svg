@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="18px" viewBox="0 0 14 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>breakout-icon</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="make-it-yours-red" transform="translate(-733.000000, -334.000000)" fill="#8D98A7">
+            <path d="M745,334 C746.104569,334 747,334.895431 747,336 L747,350 C747,351.104569 746.104569,352 745,352 L735,352 C733.895431,352 733,351.104569 733,350 L733,336 C733,334.895431 733.895431,334 735,334 L745,334 Z M743.5,342 C742.671573,342 742,342.671573 742,343.5 C742,344.328427 742.671573,345 743.5,345 C744.328427,345 745,344.328427 745,343.5 C745,342.671573 744.328427,342 743.5,342 Z" id="breakout-icon"></path>
+        </g>
+    </g>
+</svg>

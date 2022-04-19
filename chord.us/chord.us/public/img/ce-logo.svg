@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="166px" height="33px" viewBox="0 0 166 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ce-logo</title>
+    <defs>
+        <filter x="-186.2%" y="-327.3%" width="472.4%" height="754.5%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="6" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="25" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="ce-logo">
+            <g id="Mask">
+                <g id="Layer-1" filter="url(#filter-1)" fill="#167DA9" fill-rule="nonzero">
+                    <polygon id="Path_9" points="25.563865 13.7232678 25.563865 7.98968026 57.4836879 7.98968026 57.4836879 32.4855132 25.563865 32.4855132 25.563865 27.1086773 27.7210453 27.1086773 27.7210453 30.3249987 55.3265076 30.3249987 55.3265076 10.1468606 27.7210453 10.1468606 27.7210453 13.7132654"></polygon>
+                    <path d="M46.149878,21.5306824 L13.4632058,21.5306824 L13.4632058,0.84464557 L46.149878,0.84464557 L46.149878,21.5306824 Z M15.6226089,19.3712793 L43.9926977,19.3712793 L43.9926977,3.0018259 L15.6226089,3.0018259 L15.6226089,19.3712793 Z" id="Path_10"></path>
+                    <path d="M36.9387958,27.1097887 L0.43677067,27.1097887 L0.43677067,13.7232678 L36.9387958,13.7232678 L36.9387958,27.1097887 Z M2.59728513,24.9503856 L34.7805041,24.9503856 L34.7805041,15.8837822 L2.593951,15.8837822 L2.59728513,24.9503856 Z" id="Path_11"></path>
+                </g>
+                <text id="cloudengage" font-family="CircularStd-Book, Circular Std" font-size="16" font-weight="300" line-spacing="24">
+                    <tspan x="71.5" y="19.75" fill="#0A1F44">cloud</tspan>
+                    <tspan x="111.66" y="19.75" font-family="CircularStd-Bold, Circular Std" font-weight="bold" fill="#007FA9">engage</tspan>
+                </text>
+            </g>
+            <rect id="Rectangle" x="0" y="0" width="167" height="33"></rect>
+        </g>
+    </g>
+</svg>

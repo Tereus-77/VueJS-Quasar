@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>latency-icon</title>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="make-it-yours-red" transform="translate(-731.000000, -519.000000)">
+            <g id="latency-icon" transform="translate(731.000000, 519.000000)">
+                <circle id="Oval-Copy-2" fill="#8D98A7" cx="9" cy="9" r="9"></circle>
+                <path d="M15,9.75 C15,6.436 12.314,3.75 9,3.75 C5.686,3.75 3,6.436 3,9.75" id="Stroke-1-Copy" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M11.9166667,9.75 C11.9166667,8.09333333 10.6106481,6.75 9,6.75 C7.38935185,6.75 6.08333333,8.09333333 6.08333333,9.75" id="Stroke-1-Copy-2" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>
